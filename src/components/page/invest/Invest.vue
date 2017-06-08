@@ -21,6 +21,8 @@
 			<el-table-column type="index" width="60"></el-table-column>
 			<el-table-column prop="name" label="名称" width="120" sortable></el-table-column>
 			<el-table-column prop="code" label="代码" width="100" sortable></el-table-column>
+			<el-table-column prop="code" label="代码" width="100" sortable></el-table-column>
+			<el-table-column prop="code" label="代码" width="100" sortable></el-table-column>
 			<el-table-column label="操作" width="150">
 				<template scope="scope">
 					<el-button size="small" @click="handleUpdate(scope.$index, scope.row)">编辑</el-button>
